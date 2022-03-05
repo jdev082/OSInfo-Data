@@ -11,6 +11,15 @@ const oslist = [
   {
     logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
     name: "Windows 11",
+    type: "N/A",
+    build: "22H2",
+    codename: "Sun Valley 2",
+    rel: "N/A",
+    platform: "N/A",
+    download: unsupported_download_default,
+  {
+    logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
+    name: "Windows 11",
     type: "Dev",
     build: "22557.1",
     codename: "Dev",
