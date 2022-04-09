@@ -1,4 +1,4 @@
-const logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
+fconst logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
 const win11_download_default = "https://microsoft.com/software-download/windows11"
 const win10_download_default = "https://microsoft.com/software-download/windows10"
 const ubuntu_download_default = "https://ubuntu.com"
@@ -17,6 +17,7 @@ const oslist = [
     rel: "N/A",
     platform: "N/A",
     download: unsupported_download_default,
+  },
   {
     logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
     name: "Windows 11",
