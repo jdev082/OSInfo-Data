@@ -3,19 +3,21 @@ const win11_download_default = "https://microsoft.com/software-download/windows1
 const win10_download_default = "https://microsoft.com/software-download/windows10"
 const ubuntu_download_default = "https://ubuntu.com"
 const fedora_download_default = "https://getfedora.org"
-const unsupported_download_default = ""
 const logo_apple_default = "https://img.icons8.com/color/48/000000/mac-os--v1.png"
 const logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
+const win11_dl_insider = "https://microsoft.com"
 
-const oslist = [{
+const oslist = [
+    {
         logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
         name: "Windows 11",
-        type: "Beta",
-        build: "22H2",
-        codename: "Sun Valley 2",
-        rel: "N/A",
-        platform: "N/A",
-        download: unsupported_download_default,
+        type: "Stable",
+        build: "21H2",
+        codename: "Sun Valley",
+        rel: "2021",
+        eol: "N/A",
+        platform: "x64, ARM",
+        download: win11_download_default,
     },
     {
         logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
@@ -26,7 +28,17 @@ const oslist = [{
         rel: "N/A",
         eol: "N/A",
         platform: "x64, ARM",
-        download: unsupported_download_default,
+        download: win11_dl_insider,
+    },
+    {
+        logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
+        name: "Windows 11",
+        type: "Insider Preview (Beta)",
+        build: "22621.1",
+        codename: "Sun Valley 2",
+        rel: "N/A",
+        platform: "N/A",
+        download: win11_dl_insider,
     },
     {
         logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
@@ -70,7 +82,6 @@ const oslist = [{
         rel: "October 26th, 2012",
         eol: "January 10th, 2023",
         platform: "ARM",
-        download: unsupported_download_default,
     },
     {
         logo: "https://img.icons8.com/color/48/000000/windows8.png",
@@ -81,7 +92,6 @@ const oslist = [{
         rel: "2013",
         eol: "2023",
         platform: "x64, x32 ARM",
-        download: unsupported_download_default,
     },
     {
         logo: "https://www.logo.wine/a/logo/Windows_7/Windows_7-Logo.wine.svg",
@@ -92,7 +102,6 @@ const oslist = [{
         rel: "2009",
         eol: "2020",
         platform: "x64, x32",
-        download: unsupported_download_default,
     },
     {
         logo: "https://img.icons8.com/color/48/000000/windows-logo.png",
@@ -103,7 +112,6 @@ const oslist = [{
         rel: "2001",
         eol: "2014",
         platform: "x64, x32",
-        download: unsupported_download_default,
     },
     {
         logo: logo_ubuntu_default,
@@ -147,7 +155,6 @@ const oslist = [{
         rel: "September 20, 2021",
         eol: "N/A",
         platform: "N/A",
-        download: unsupported_download_default,
     },
     {
         logo: logo_apple_default,
@@ -158,7 +165,6 @@ const oslist = [{
         rel: "October 2021",
         eol: "N/A",
         platform: "arm64",
-        download: unsupported_download_default,
     },
     {
         logo: logo_apple_default,
@@ -169,7 +175,6 @@ const oslist = [{
         rel: "June 2021",
         eol: "N/A",
         platform: "arm64",
-        download: unsupported_download_default,
     },
     {
         logo: logo_apple_default,
@@ -180,7 +185,6 @@ const oslist = [{
         rel: "October 2019",
         eol: "November 2022",
         platform: "x86_64, 32",
-        download: unsupported_download_default,
     },
     {
         logo: logo_ubuntu_default,
@@ -202,7 +206,6 @@ const oslist = [{
         rel: "2021",
         eol: "N/A",
         platform: "arm64",
-        download: unsupported_download_default,
     },
 ];
 export default oslist;
