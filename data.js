@@ -1,10 +1,10 @@
-const logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
+const logo_linux_default = "./logos/linux.svg"
 const win11_download_default = "https://microsoft.com/software-download/windows11"
 const win10_download_default = "https://microsoft.com/software-download/windows10"
 const ubuntu_download_default = "https://ubuntu.com"
 const fedora_download_default = "https://getfedora.org"
 const logo_apple_default = "./logos/apple.svg"
-const logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
+const logo_ubuntu_default = "./logos/ubuntu.svg"
 const win11_dl_insider = "https://microsoft.com"
 
 const oslist = [
