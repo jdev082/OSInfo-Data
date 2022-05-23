@@ -23,7 +23,7 @@ const oslist = [
         logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
         name: "Windows 11",
         type: "Insider Preview (Dev)",
-        build: "22557.1",
+        build: "25120.1",
         codename: "Dev",
         rel: "N/A",
         eol: "N/A",
