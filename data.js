@@ -3,13 +3,13 @@ const win11_download_default = "https://microsoft.com/software-download/windows1
 const win10_download_default = "https://microsoft.com/software-download/windows10"
 const ubuntu_download_default = "https://ubuntu.com"
 const fedora_download_default = "https://getfedora.org"
-const logo_apple_default = "./logos/apple.svg"
+const "./logos/apple.svg" = "./logos/apple.svg"
 const logo_ubuntu_default = "./logos/ubuntu.svg"
 const win11_dl_insider = "https://microsoft.com"
 
 const oslist = [
     {
-        logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
+        logo: "./logos/11.svg",
         name: "Windows 11",
         type: "Stable",
         build: "21H2",
@@ -20,7 +20,7 @@ const oslist = [
         download: win11_download_default,
     },
     {
-        logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
+        logo: "./logos/11.svg",
         name: "Windows 11",
         type: "Insider Preview (Dev)",
         build: "25120.1",
@@ -31,7 +31,7 @@ const oslist = [
         download: win11_dl_insider,
     },
     {
-        logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
+        logo: "./logos/11.svg",
         name: "Windows 11",
         type: "Insider Preview (Beta)",
         build: "22621.1",
@@ -41,7 +41,7 @@ const oslist = [
         download: win11_dl_insider,
     },
     {
-        logo: "https://img.icons8.com/color/48/000000/windows-10.png",
+        logo: "./logos/10.svg",
         name: "Windows 10",
         type: "Stable",
         build: "21H2",
@@ -52,7 +52,7 @@ const oslist = [
         download: win10_download_default,
     },
     {
-        logo: "https://img.icons8.com/color/48/000000/windows-10.png",
+        logo: "./logos/10.svg",
         name: "Windows 10",
         type: "Stable",
         build: "21H1",
@@ -63,7 +63,7 @@ const oslist = [
         download: win10_download_default,
     },
     {
-        logo: "https://img.icons8.com/color/48/000000/windows8.png",
+        logo: "./logos/10.svg",
         name: "Windows RT",
         type: "N/A",
         build: "6.3.9600",
@@ -73,7 +73,7 @@ const oslist = [
         platform: "ARM",
     },
     {
-        logo: "https://img.icons8.com/color/48/000000/windows8.png",
+        logo: "./logos/10.svg",
         name: "Windows 8.1",
         type: "Stable",
         build: "NT 6.2",
@@ -83,7 +83,7 @@ const oslist = [
         platform: "x64, x32 ARM",
     },
     {
-        logo: "https://img.icons8.com/color/48/000000/windows8.png",
+        logo: "./logos/10.svg",
         name: "Windows 8",
         type: "Stable",
         build: "NT 6.1",
@@ -93,7 +93,7 @@ const oslist = [
         platform: "x64, x32 ARM",
     },
     {
-        logo: "https://www.logo.wine/a/logo/Windows_7/Windows_7-Logo.wine.svg",
+        logo: "./logos/7.svg",
         name: "Windows 7",
         type: "Stable",
         build: "NT 6.1",
@@ -113,7 +113,7 @@ const oslist = [
         platform: "x64, x32, IA-64",
     },
     {
-        logo: logo_ubuntu_default,
+        logo: "./logos/ubuntu.svg",
         name: "Ubuntu 22.04",
         type: "LTS",
         build: "22.04",
@@ -124,7 +124,7 @@ const oslist = [
         download: ubuntu_download_default,
     },
     {
-        logo: logo_ubuntu_default,
+        logo: "./logos/ubuntu.svg",
         name: "Ubuntu 20.04",
         type: "LTS",
         build: "20.04.4",
@@ -135,7 +135,7 @@ const oslist = [
         download: ubuntu_download_default,
     },
     {
-        logo: logo_ubuntu_default,
+        logo :"./logos/ubuntu.svg",
         name: "Ubuntu 21.10",
         type: "Interim",
         build: "21.10",
@@ -146,7 +146,7 @@ const oslist = [
         download: ubuntu_download_default,
     },
     {
-        logo: logo_linux_default,
+        logo: "./logos/linux.svg",
         name: "Fedora 36",
         type: "Stable",
         build: "36.0",
@@ -157,7 +157,7 @@ const oslist = [
         download: fedora_download_default,
     },
     {
-        logo: logo_apple_default,
+        logo: "./logos/apple.svg",
         name: "WatchOS 8",
         type: "Stable",
         build: "8.6",
@@ -167,7 +167,7 @@ const oslist = [
         platform: "N/A",
     },
         {
-        logo: logo_apple_default,
+        logo: "./logos/apple.svg",
         name: "iPadOS/iOS 15",
         type: "Stable",
         build: "15.5",
@@ -177,7 +177,7 @@ const oslist = [
         platform: "arm64",
     },
     {
-        logo: logo_apple_default,
+        logo: "./logos/apple.svg",
         name: "MacOS 12",
         type: "Stable",
         build: "12.4",
@@ -188,7 +188,7 @@ const oslist = [
         download: "https://apps.apple.com/us/app/macos-monterey/id1576738294?mt=12",
     },
     {
-        logo: logo_apple_default,
+        logo: "./logos/apple.svg",
         name: "MacOS 11",
         type: "Stable",
         build: "11.6.6",
@@ -199,7 +199,7 @@ const oslist = [
         download: "https://apps.apple.com/us/app/macos-big-sur/id1526878132?mt=12",
     },
     {
-        logo: logo_apple_default,
+        logo: "./logos/apple.svg",
         name: "MacOS 10.15",
         type: "Stable",
         build: "10.15.7",
@@ -210,7 +210,7 @@ const oslist = [
         download: "https://apps.apple.com/us/app/macos-catalina/id1466841314?mt=12",
     },
     {
-        logo: logo_apple_default,
+        logo: "./logos/apple.svg",
         name: "MacOS 10.14",
         type: "Stable (Unsupported)",
         build: "10.14.6",
@@ -221,7 +221,7 @@ const oslist = [
         download: "https://apps.apple.com/us/app/macos-mojave/id1398502828?mt=12",
     },
     {
-        logo: logo_apple_default,
+        logo: "./logos/apple.svg",
         name: "MacOS 10.13",
         type: "Stable (Unsupported)",
         build: "10.13.6",
