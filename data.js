@@ -1,9 +1,7 @@
-const logo_linux_default = "./logos/linux.svg"
 const win11_download_default = "https://microsoft.com/software-download/windows11"
 const win10_download_default = "https://microsoft.com/software-download/windows10"
 const ubuntu_download_default = "https://ubuntu.com"
 const fedora_download_default = "https://getfedora.org"
-const "./logos/apple.svg" = "./logos/apple.svg"
 const logo_ubuntu_default = "./logos/ubuntu.svg"
 const win11_dl_insider = "https://microsoft.com"
 
