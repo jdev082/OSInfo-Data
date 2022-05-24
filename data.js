@@ -16,6 +16,7 @@ const oslist = [
         eol: "N/A",
         platform: "x64, ARM",
         download: win11_download_default,
+        support: true,
     },
     {
         logo: "./logos/11.svg",
