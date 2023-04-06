@@ -60,7 +60,7 @@ const oslist = [
         eol: "2025",
         platform: "x64, x32, ARM",
         download: win10_download_default,
-    },
+    }, 
     {
         logo: "./logos/10.svg",
         name: "Windows RT",
@@ -110,6 +110,17 @@ const oslist = [
         rel: "2001",
         eol: "2014",
         platform: "x64, x32, IA-64",
+    },
+    {
+        logo: "./logos/ubuntu.svg",
+        name: "Ubuntu 22.10",
+        type: "Standard",
+        build: "22.10",
+        codename: "Kinetic Kudu",
+        rel: "October 2022",
+        eol: "Unknown",
+        platform: "x64, x32, arm64",
+        download: ubuntu_download_default,
     },
     {
         logo: "./logos/ubuntu.svg",
